@@ -1,4 +1,4 @@
-resource "github_issue" "collaborators" {
+resource "github_issue" "this" {
   repository = github_repository.this.name
   title      = "Add collaborators to this repo"
   body       = <<EOT

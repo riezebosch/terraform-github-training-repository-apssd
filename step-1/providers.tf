@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    value = {
-      source  = "pseudo-dynamic/value"
-      version = "0.5.1"
+    github = {
+      source  = "integrations/github"
+      version = "~> 5.0"
     }
 
     env = {
@@ -12,3 +12,5 @@ terraform {
   }
 }
 
+provider "github" {
+}
