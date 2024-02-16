@@ -14,6 +14,11 @@ terraform {
       source  = "tchupp/env"
       version = "0.0.2"
     }
+
+    value = {
+      source  = "pseudo-dynamic/value"
+      version = "0.5.1"
+    }
   }
 }
 
