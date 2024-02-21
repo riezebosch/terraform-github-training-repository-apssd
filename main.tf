@@ -1,8 +1,12 @@
 module "team" {
-  source = "./modules/team"
+  source  = "riezebosch/training-repository/github"
+  version = "0.0.2"
   for_each = {
     for index, team in var.teams : team.name => team
   }
-  name  = each.value.name
-  stack = each.value.stack
+  repository = each.value.name
+  template = {
+    owner      = "proscrumdev"
+    repository = "battelship-${each.value.stack}"
+  }
 }
