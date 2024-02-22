@@ -1,5 +1,7 @@
 # Setup training repositories for [APS-SD](https://www.scrum.org/courses/applying-professional-scrum-training)
 
+See [riezebosch/training-repository/github](https://registry.terraform.io/modules/riezebosch/training-repository/github/) for additional information.
+
 ## Step 1: setup configuration
 
 ```terraform
