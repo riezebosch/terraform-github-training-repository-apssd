@@ -1,6 +1,6 @@
 module "team" {
   source  = "riezebosch/training-repository/github"
-  version = "0.0.2"
+  version = "0.0.6"
   for_each = {
     for index, team in var.teams : team.name => team
   }
