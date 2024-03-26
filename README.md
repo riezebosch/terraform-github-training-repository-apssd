@@ -7,7 +7,7 @@ See [riezebosch/training-repository/github](https://registry.terraform.io/module
 ```terraform
 module "team" {
   source  = "riezebosch/training-repository-apssd/github"
-  version = "0.0.2"
+  version = "0.0.7"
   teams = [{
     name  = "amazing-einstein"
     stack = "python"
