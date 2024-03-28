@@ -7,6 +7,6 @@ module "team" {
   repository = each.value.name
   template = {
     owner      = "proscrumdev"
-    repository = "battelship-${each.value.stack}"
+    repository = "battleship-${each.value.stack}"
   }
 }
